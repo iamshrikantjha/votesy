@@ -1,0 +1,69 @@
+ // var ref = firebase.database().ref("candid");
+
+                // ref.on("value", function(snapshot) {
+                //  snapshot.forEach(function(childSnapshot) {
+                //   var childData = childSnapshot.val().votes;
+                //   var id=childData.id;
+                //   console.log(childData);
+                //  });
+                // });   
+
+ // var bjpv=90;
+            // var bjpv = firebase.database().ref('candid/BJP');
+            // bjpv.once('value', function(snapshot)
+            // {
+            //     var bjpv = (snapshot.val().votes);
+            //     console.log(bjpv);
+            //     console.log('Did it .....?');
+            // })
+            // var bjpv = firebase.database().ref('candid/BJP');
+            //     bjpv.on('value', function(snapshot) {
+            //     updateStarCount(postElement, snapshot.val());
+            //     });
+            //  return firebase.database().ref('candid/BJP').once('value').then(function(snapshot) {
+            //     var bjpv = (snapshot.val().votes);
+            //   });
+            // console.log('Did it worked?')
+            // console.log(bjpv)
+            //     return {
+            //         bjp: bjpv
+            //     }
+            // })
+            }
+
+  //    this.componentWillMount=()=>{
+    //        console.log("Component Will Mount")
+    //     this.getVal=()=>{
+    //         console.log("Component Will Mount")
+    //         firebase.database().ref('candid/BJP').once('value', function(snapshot){
+    //             console.log(snapshot.val().votes)
+    //             console.log('Error')
+    //         })  
+    //     }  
+    //    }
+        
+        // console.log(this.state.bjp)
+
+
+
+
+
+
+
+
+
+
+
+
+           const data = [
+        { name: 'BJP', votes : this.state.bjp, color: 'pink', legendFontColor: '#7F7F7F', legendFontSize: 10 },
+        { name: 'CONG', votes: this.state.cong, color: '#F00', legendFontColor: '#7F7F7F', legendFontSize: 10 },
+        { name: 'AAP', votes: this.state.aap, color: 'red', legendFontColor: '#7F7F7F', legendFontSize: 10 },
+        { name: 'BSP', votes: this.state.bsp, color: 'green', legendFontColor: '#7F7F7F', legendFontSize: 10 },
+        { name: 'CPI', votes: this.state.cpi, color: 'rgb(0, 0, 255)', legendFontColor: '#7F7F7F', legendFontSize: 10 },
+        { name: 'JMM', votes: this.state.jmm, color: 'rgba(131, 167, 234, 1)', legendFontColor: '#7F7F7F', legendFontSize: 10 },
+        { name: 'MGP', votes: this.state.mgp, color: '#F00', legendFontColor: '#7F7F7F', legendFontSize: 10 },
+        { name: 'NPP', votes: this.state.npp, color: 'red', legendFontColor: '#7F7F7F', legendFontSize: 10 },
+        { name: 'SP', votes: this.state.sp, color: 'green', legendFontColor: '#7F7F7F', legendFontSize: 10 },
+        { name: 'SAD', votes: this.state.sad, color: 'rgb(0, 0, 255)', legendFontColor: '#7F7F7F', legendFontSize: 10 }
+      ]
